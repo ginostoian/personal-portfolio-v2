@@ -1,0 +1,16 @@
+{
+  "name": "gino-stoian-portfolio",
+  "version": "1.0.0",
+  "description": "Gino Stoian - Frontend Developer | Portfolio",
+  "main": "index.js",
+  "repository": "https://github.com/ginostoian/personal-portfolio-v2",
+  "author": "Gino Stoian | Frontend Developer<ginostoian@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node-sass scss/app.scss styles/app.css -w",
+    "build": "node-sass scss/app.scss styles/app.min.css --output-style=compressed"
+  },
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
